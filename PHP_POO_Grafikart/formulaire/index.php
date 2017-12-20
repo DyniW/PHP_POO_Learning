@@ -4,6 +4,8 @@
 
     $form1 = new Form(array('username' => 'Roger'));
 
+    var_dump(Text::publicWithZero(4));//donne 04
+
     /*
         echo '<pre>';
         	var_dump($form);

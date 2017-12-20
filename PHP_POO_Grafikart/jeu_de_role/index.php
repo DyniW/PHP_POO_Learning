@@ -6,7 +6,7 @@ $merlin = new Personnage('merlin');
 
 //on peut définir la vie de merlin ici avec $merlin->vie = 100;
 
-$merlin->regenerer(5);
+$merlin->regenerer();
 
 echo '<pre>';
 	var_dump($merlin);
