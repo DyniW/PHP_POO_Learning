@@ -1,6 +1,7 @@
 <?php
 
 require 'Personnage.php';
+require 'Archer.php';
 
 $merlin = new Personnage('merlin');
 
@@ -37,3 +38,10 @@ echo $merlin->getNom();//retourne le nom grâce à l'accesseur 'getNom'
 $merlin->setNom('hagrid');//modifie le nom grâce au mutateur 'setNom'
 echo '<br />';
 echo $merlin->getNom();
+
+echo '<br /><br />';
+$legolas = new Archer('Legolas');
+
+echo '<pre>';
+    var_dump($legolas);
+echo '</pre>';
