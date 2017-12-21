@@ -30,7 +30,7 @@ if($harry->mort())
 }
 else
 {
-	echo "Harry a survécu, il lui reste ".$harry->vie." points de vie";
+	echo "Harry a survécu, il lui reste ".$harry->getVie()." points de vie";
 }
 
 echo '<br />';
@@ -45,3 +45,5 @@ $legolas = new Archer('Legolas');
 echo '<pre>';
     var_dump($legolas);
 echo '</pre>';
+
+$legolas->attaque($harry);
